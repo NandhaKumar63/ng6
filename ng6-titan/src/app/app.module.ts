@@ -5,12 +5,16 @@ import { AppCommonModule } from './app-common/app-common.module';
 import { AppRouteModule } from './app-route.module';
 import { DefaultRouteComponent } from './default-route/default-route.component';
 import { WildCardRouteComponent } from './wild-card-route/wild-card-route.component';
+import { UserComponent } from './user/user.component';
+import { ParamsComponent } from './params/params.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DefaultRouteComponent,
-    WildCardRouteComponent
+    WildCardRouteComponent,
+    UserComponent,
+    ParamsComponent
   ],
   imports: [
     BrowserModule,
